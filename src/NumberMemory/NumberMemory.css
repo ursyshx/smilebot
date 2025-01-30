@@ -1,0 +1,63 @@
+.number-memory {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .number-memory-title {
+    color: #333;
+  }
+  
+  .number-memory-instruction {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .number-memory-input {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    width: 80%;
+    outline: none;
+  }
+  
+  .number-memory-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .number-memory-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .number-memory-result {
+    font-weight: bold;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .wrong {
+    color: red;
+  }
+  
+  .number-memory-streak {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+  }
+  

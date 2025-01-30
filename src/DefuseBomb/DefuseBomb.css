@@ -1,0 +1,68 @@
+.defuse-bomb {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d9534f; 
+  }
+  
+  .timer {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .passcode-input {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    width: 80%;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+  .bomb-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .defuse-button {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .defuse-button:hover {
+    background-color: #c9302c;
+  }
+  
+  .reset-button {
+    background-color: #5bc0de;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #31b0d5;
+  }
+  

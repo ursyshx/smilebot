@@ -1,0 +1,161 @@
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header-title {
+  font-size: 3rem;
+  margin: 0;
+  color: #ffd700;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.game-intro {
+  margin-bottom: 20px;
+}
+
+.game-intro-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+.game-intro-text {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 200px;
+}
+
+.start-button:hover {
+  background-color: #e64a19;
+}
+
+.features {
+  margin-top: 30px;
+}
+
+.features-title {
+  font-size: 1.5rem;
+  color: #ffd700;
+  margin-bottom: 15px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+}
+
+.features-item {
+  font-size: 1rem;
+  color: #ddd;
+  margin: 10px 0;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+  }
+
+  .game-intro-title {
+    font-size: 1.5rem;
+  }
+
+  .game-intro-text {
+    font-size: 0.9rem;
+  }
+
+  .start-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .features-title {
+    font-size: 1.2rem;
+  }
+
+  .features-item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 1.5rem;
+  }
+
+  .header-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .game-intro-title {
+    font-size: 1.2rem;
+  }
+
+  .game-intro-text {
+    font-size: 0.8rem;
+  }
+
+  .start-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .features-title {
+    font-size: 1rem;
+  }
+
+  .features-item {
+    font-size: 0.8rem;
+  }
+}
